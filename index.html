@@ -1,77 +1,134 @@
 
-<!DOCTYPE html>
-    <html>
+
+
     <head>
-        <title>My Friends and Family</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <body>
+           
+            <div class ="container p-5 my-5 bg-info text-white">
+            <p class="h1">ALL LITTLE ABOUT ME</p> <!--typography example #1-->
+            </div>
+            <h2>Grid</h2>
+            <div class="row">
+                <div class="col-lg-2"> <div class="spinner-border text-danger"></div></div>
+                <div class="col-lg-2"> <button type="button" class="btn btn-warning" disabled> Yellow Disabled Button</button></div>
+                <div class="col-lg-2"> <button type="button" class="btn btn-outline-primary">Blue Outlined Button</button></div>
+                <div class="col-lg-2"> <div class="spinner-border text-success"></div></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"><button type="button" class="btn btn-danger active">Red Active Button</button></div>
+                <div class="col-lg-2"> <div class="spinner-grow text-info"></div></div>
+                <div class="col-lg-2"><button type="button" class="btn btn-light">White Button</button></div>
+                <div class="col-lg-2"> <button type="button" class="btn btn-secondary">Gray Button</button></div>
+            </div>
+                <!--Friends Section-->
+            <p class="h2">Friends</p> <!--typography example #2-->
+             <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Relation</th>
+                        <th scope="col">Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mak</td>
+                        <td>Friend</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>Harper</td>
+                        <td>Friend</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Kimber</td>
+                        <td>Friend</td>
+                        <td>16</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <p class="text-primary">This is my best friend. Her name is Mak. I've known her since middle school, but we got closer in high school. We play softball together.</p>
+            <p class="bg-warning">I also have other friends at school. <em>My favorite thing to do with them is go out to eat!</em> I also enjoy playing<code> bored games </code> with them.</p> <!--typography example #3-->
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-primary">Blue Button</button>
+                <button type="button" class="btn btn-secondary">Gray Button</button>
+                <button type="button" class="btn btn-success">Green Button</button>
+
+            </div>
+             <div class="progress">
+                <div class="progress-bar" style="width:80%">Progress Bar 1</div>
+            </div>
+            <h1>Keep Reading to Figure Out my Favorite Color!<span class="badge bg-info">My Favorite Color is Blue!</span></h1>
+             <h1>Keep Reading to Figure Out my Favorite Food!<span class="badge bg-danger">My Favorite Food is Pizza!</span></h1>
+            <div class="btn-group">
+                <button type="button" class="btn btn-info">Light Blue Button</button>
+                <button type="button" class="btn btn-dark">Black Button</button>
+                <button type="button" class="btn btn-light">White Button</button>
+            </div>
+
+            <!--Family section-->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Relation</th>
+                        <th scope="col">Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Brandi</td>
+                        <td>Mother</td>
+                        <td>48</td>
+                    </tr>
+                    <tr>
+                        <td>Chris</td>
+                        <td>Father</td>
+                        <td>49</td>
+                    </tr>
+                    <tr>
+                        <td>Madylin</td>
+                        <td>Sister</td>
+                        <td>26</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="alert alert-info alert-dismissible fade show">
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                Alert Box!
+            </div>
+            <div class="progress" style="height:30px">
+                <div class="progress-bar  bg-success" style="width:60%">Progress Bar 2
+                </div>
+            </div>
+            <p class="h3">Family</p> <!--typography example #4-->
+            <p class="display-4">This is my family. I have a mom, dad and sister. My sister is eight years older than me, and she lives in Brooklyn, New York.</p> <!--typography example #5-->
+            <p>My favorite thing to do with my family is watch movies and go shopping! I also enjoy Christmas because my whole family gets together to celebrate.</p>
+            <button type="button" class="btn btn-danger active">Red Active Button</button>
+           
+           
+            <button class="btn btn-success">
+                <span class="spinner-border spinner-border-sm"></span>
+                Spinner Button!
+            </button>
+            <p class="text-danger"> <strong>--- pictures are below ---</p>
+              
+               
+
+
+            <img src = "img/IMG_5037.jpeg" class="rounded" alt = "friend photo" height = "200" width = "300" >
+            <img src = "img/Screenshot 2026-02-02 194034.png" class="rounded-circle" alt = "screenshot" height = "300" width = "200" >
+            <img src = "img/Screenshot 2026-02-02 193749.png" class="img-thumbnail" alt ="screenshot" height = "200" width = "300">
+
+
+            <h2>This is my <mark>favorite</mark> game!</h2> <!--typography example #6-->
+            <a href="https://cardgames.io/spidersolitaire/" target="_blank" rel="noopener noreferrer"> SpiderSolitare! </a>
+            <br>
+            <a href="" target="_blank" rel="noopener noreferrer"> CoolBlueUnderlinedWords!</a>
+           
+        </body>
     </head>
-
-    <body>
-        <!-- Friends Section -->
-        <h1>Friends</h1>
-        <p>
-            This is my best friend. Her name is Mak. I've known her since middle school,
-            but we got closer in high school. We play softball together.
-        </p>
-        <p>
-            I also have other friends at school.
-            <em>My favorite thing to do with them is go out to eat!</em>
-            I also enjoy playing board games with them.
-        </p>
-
-        <!-- Family Section -->
-        <h2>Family</h2>
-        <p>
-            This is my family. I have a mom, dad, and sister.
-            My sister is eight years older than me, and she lives in Brooklyn, New York.
-        </p>
-        <p>
-            My favorite thing to do with my family is watch movies and go shopping!
-            I also enjoy Christmas because my whole family gets together to celebrate.
-        </p>
-
-        <p><strong>--- pictures are below ---</strong></p>
-
-        <img src="img/IMG_5037.jpeg" alt="friend photo" height="200" width="300">
-        <img src="img/100_0899.jpeg" alt="screenshot" height="200" width="300">
-
-        <h2>This is my favorite game!</h2>
-        <a href="https://cardgames.io/spidersolitaire/" target="_blank" rel="noopener noreferrer">
-            Spider Solitaire!
-        </a>
-        <br>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-            CoolBlueUnderlinedWords!
-        </a>
-
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="3">Family Members</th>
-                </tr>
-                <tr>
-                    <th>Name</th>
-                    <th>Relationship</th>
-                    <th>Age</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Christopher</td>
-                    <td>Father</td>
-                    <td>49</td>
-                </tr>
-                <tr>
-                    <td>Brandi</td>
-                    <td>Mother</td>
-                    <td>48</td>
-                </tr>
-                <tr>
-                    <td>Madylin</td>
-                    <td>Sister</td>
-                    <td>26</td>
-                </tr>
-            </tbody>
-        </table>
-
-    </body>
 </html>
